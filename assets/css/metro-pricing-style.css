@@ -1,0 +1,166 @@
+/*
+* Plugins Name: Metro Pricing Table
+* Author: Md. Sahid Hossen
+* Author link: www.mdsahid.com
+*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500,300,300italic);
+
+
+.metro-row {
+    padding-left: 0;
+    padding-right: 0;
+}
+.metro-column {
+    padding-right: 5px;
+    padding-left: 5px;
+    position: relative;
+
+}
+.metro-column .inner-column {
+    -webkit-box-shadow: 1px 1px 2px #dddddd ;
+    -moz-box-shadow: 1px 1px 2px #dddddd;
+    box-shadow: 1px 1px 2px #dddddd;
+    overflow: hidden;
+    position: relative;
+}
+.metro-column .pricing-header {
+    background: #2e890a;
+    font-family: 'Roboto', sans-serif;
+}
+.metro-column .pricing-header .metro-title {
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 30px 0 20px 0;
+    font-size: 22px;
+}
+.metro-column .pricing-header .pricing-badge {
+    position: absolute;
+    width: 120px;
+    overflow: hidden;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    background: #204d74;
+    color: #fff;
+    left: -30px;
+    top: 15px;
+    padding: 3px 10px;
+    font-size: 12px;
+    z-index: 99;
+    border-radius: 20px 20px 0 0;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px #000;
+    -moz-box-shadow: 1px 1px 2px #000;
+    box-shadow: 1px 1px 2px #000;
+}
+
+.metro-column .pricing-header .price-section {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 0;
+
+}
+.metro-column .pricing-header .price-section .price-round {
+    -webkit-border-radius: 50% 50%;
+    -moz-border-radius: 50% 50%;
+    font-size: 100%;
+    width: 150px;
+    height: 150px;
+    padding-top: 35px;
+    border: 1px solid #FFFFFF;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.3);
+}
+.metro-column .pricing-header .price-section .price {
+    font-size: 40px;
+    font-family: "roboto";
+    font-weight: 100;
+    letter-spacing: -3px;
+    line-height: 50px;
+    vertical-align: top;
+}
+.metro-column .pricing-header .price-section .currency {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 35px;
+}
+.metro-column .pricing-header .price-section p {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+.metro-column .pricing-body {
+    background: #edf1f2;
+}
+.metro-column .pricing-body .features p {
+    margin: 0;
+    padding: 0;
+}
+.metro-column .pricing-body .features a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 10px 0;
+    border: none;
+}
+.metro-column .pricing-body .features {
+    text-align: center;
+}
+.metro-column .pricing-body .even {
+    background: rgba(0,0,0,0.08);
+}
+
+.metro-pricing-tooltip {
+    background: #265a88;
+    color: #ffffff;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-width: 1px;
+    margin-top: -5px;
+    border-color: #666666;
+    max-width: 200px;
+    border: none;
+    height: auto;
+}
+.metro-pricing-tooltip:after{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    display: block;
+    width: 0;
+
+}
+.tooltip-bottom.metro-pricing-tooltip:after {
+    top: -6px;
+    left: 45%;
+    border-color: #265a88 transparent;
+    border-width: 0 6px 6px;
+}
+
+.tooltip-right.metro-pricing-tooltip:after {
+    top: 30%;
+    left: -6px;
+    border-color: transparent #265a88;
+    border-width: 6px 6px 6px 0;
+}
+.tooltip-left.metro-pricing-tooltip:after {
+    top: 30%;
+    right: -6px;
+    border-color: transparent #265a88;
+    border-width: 6px 0 6px 6px;
+}
+.tooltip-top.metro-pricing-tooltip:after {
+    bottom: -6px;
+    left: 45%;
+    border-color: #265a88 transparent;
+    border-width: 6px 6px 0;
+}

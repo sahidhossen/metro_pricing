@@ -1,0 +1,55 @@
+/*
+This is for only form handling style
+*/
+.metro-image-display {
+    position: relative;
+}
+
+.metro-image-container .metro-image-display {
+    background: #F0F0F0 url(../img/placeholder.png) center no-repeat;
+    background-size: 32px 32px;
+    border: 1px dashed #ddd;
+    height: 108px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.metro-image-remove {
+    display: none;
+    width: 16px;
+    height: 16px;
+    background: #FF5353 url('../img/cross.png') no-repeat;
+    background-size: 16px 16px;
+    border: 1px solid #BC3F39;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+    text-indent: -999px;
+    overflow: hidden;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4) inset, 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+.metro-image-upload-button {
+    height: 28px;
+    margin: 0px;
+    padding: 0px 10px 1px;
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4) inset, 0px 1px 0px rgba(0, 0, 0, 0.08);
+    vertical-align: middle;
+    cursor: pointer;
+    color: #555;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    text-align: center;
+}
